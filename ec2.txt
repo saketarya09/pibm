@@ -1,0 +1,12 @@
+aws configure
+aws access key - user
+secret key -user
+region - ap-south-1
+format- json
+ls
+pwd
+ls
+upload keypair file
+keypair.pem
+chmod 400 keypair.pem
+ssh -i keypair.pem ec2user@publicip
