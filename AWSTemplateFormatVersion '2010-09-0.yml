@@ -1,0 +1,8 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: Simple S3 bucket created by CloudFormation
+
+Resources:
+  StudentCFBucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: student-cf-bucket-saket-001
